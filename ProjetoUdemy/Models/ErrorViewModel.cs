@@ -1,11 +1,10 @@
 using System;
-using ProjetoUdemy.Models.ViewModels;
 
-namespace ProjetoUdemy.Models
+namespace ProjetoUdemy.Models.ViewModels
 {
     public class ErrorViewModel
     {
-       public string RequestId { get; set; }
+        public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
