@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ProjetoUdemy.Models;
+using ProjetoUdemy.Models.ViewModels;
 
 namespace ProjetoUdemy.Controllers
 {
@@ -18,6 +18,7 @@ namespace ProjetoUdemy.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            ViewData["Msg"] = "Enviando msg para a pagina html abaut.";
 
             return View();
         }
